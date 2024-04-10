@@ -199,7 +199,7 @@ footer {
   .my-image .olive img{
     max-width: 100%;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
 
   #graphic-design {
@@ -214,5 +214,9 @@ footer {
 
   #graphic-design .gallery .project img {
     width: 100%; /* Make images fill the mobile space */
+  }
+
+  #contact {
+    max-width: auto;
   }
 }
