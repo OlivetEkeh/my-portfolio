@@ -134,6 +134,7 @@ hr {
 }
 
 #contact {
+  width: 100%;
   height: 400px;
   color: rgb(15, 7, 7);
   text-align: center;
@@ -141,7 +142,7 @@ hr {
 
 #contact form {
   background-color: #d1d8f7;
-  width: 600px;
+  width: 37.5rem;
   margin: 0 auto;
   padding: 20px;
 }
@@ -217,6 +218,6 @@ footer {
   }
 
   #contact form{
-    max-width: 0 auto;
+    max-width: 100%;
   }
 }
