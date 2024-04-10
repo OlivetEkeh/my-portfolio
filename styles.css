@@ -1,0 +1,203 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  background-color: #929cc5;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -1.3rem;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:hover {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: black;
+}
+
+#introduction {
+  text-align: center;
+  padding: 40px 10px;
+}
+
+#introduction h2 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(250, 246, 246);
+}
+
+#introduction p {
+  font-weight: bold;
+  color: rgb(248, 246, 246);
+  font-size: 20px;
+}
+
+.my-image .olive img {
+  padding: 4rem;
+  height: 50rem;
+} 
+
+.graphics-header h2 {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: rgb(248, 244, 244);
+}
+
+#graphic-design {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 20px 20px;
+}
+
+#graphic-design .gallery .project img {
+  border: 8px solid #333;
+}
+
+
+.gallery:nth-of-type(4) img {
+  height: 388px;
+}
+
+.project-info {
+  color: rgb(253, 249, 249);
+}
+
+hr {
+  margin: 40px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+#web-development {
+  height: 400px;
+}
+
+#web-development h2 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(247, 241, 241);
+}
+
+#web-development .projects {
+  padding: 10px;
+  color: rgb(247, 240, 240);
+}
+
+#about {
+  height: 400px;
+  color: rgb(245, 238, 238);
+}
+
+#contact {
+  height: 400px;
+  color: rgb(15, 7, 7);
+  text-align: center;
+}
+
+#contact form {
+  background-color: #d1d8f7;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact form label {
+  display: block;
+}
+
+#contact form input,textarea {
+  display: block;
+  padding: 10px 50px;
+  margin: 5px auto;
+  border: #d1d8f7;
+  border-radius: 8px;
+}
+
+#contact form textarea {
+  display: block;
+}
+
+#contact button {
+  padding: 6px 18px;
+  border: #d1d8f7;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+#contact button:hover {
+  background-color: #d0d6f5;
+}
+
+
+.social-links img{
+  width: 50px;
+  margin: 10px;
+}
+
+.social-links .linkedin img{
+  border: 1px solid white;
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+
+  #graphic-design {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #graphic-design .gallery{
+      grid-template-columns: 1fr;
+  }
+
+  #graphic-design .gallery .project img {
+    width: 100%; /* Make images fill the mobile space */
+  }
+}
