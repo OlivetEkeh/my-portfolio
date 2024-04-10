@@ -187,6 +187,11 @@ footer {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
 
+  .my-image .olive img{
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
   #graphic-design {
     grid-template-columns: 1fr;
     width: 100%;
