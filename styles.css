@@ -66,10 +66,15 @@ main {
   font-size: 20px;
 }
 
-.my-image .olive img {
+.my-image .olive  {
   padding: 4rem;
   height: 50rem;
 } 
+
+.my-image .olive img {
+  max-width: 100%;
+  max-height: auto;
+}
 
 .graphics-header h2 {
   text-align: center;
@@ -187,9 +192,14 @@ footer {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
 
+  nav ul li {
+    max-width: 100%;
+  }
+
   .my-image .olive img{
     max-width: 100%;
     box-sizing: border-box;
+    margin-bottom: 5px;
   }
 
   #graphic-design {
