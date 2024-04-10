@@ -216,7 +216,7 @@ footer {
     width: 100%; /* Make images fill the mobile space */
   }
 
-  #contact {
-    max-width: auto;
+  #contact form{
+    max-width: 0 auto;
   }
 }
