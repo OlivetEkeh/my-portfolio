@@ -201,6 +201,7 @@ footer {
     max-width: 100%;
     box-sizing: border-box;
     margin-bottom: 0;
+    object-fit: cover;
   }
 
   #graphic-design {
@@ -215,6 +216,7 @@ footer {
 
   #graphic-design .gallery .project img {
     width: 100%; /* Make images fill the mobile space */
+    object-fit: cover;
   }
 
   #contact form{
